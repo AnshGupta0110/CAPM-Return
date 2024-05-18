@@ -112,7 +112,7 @@ try:
     return_df['Return Value'] = return_value
 
     with col2:
-        st.markdown("### Calculated Return using CAPM")
+        st.markdown("### Calculated Returns using CAPM")
         st.dataframe(return_df, use_container_width=True)
 except:
     st.write("Data Loading Please Wait!!!")
